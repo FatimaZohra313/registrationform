@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.yes{
+  background-color: black;
+}
+.mainForm{
+  background-image: url("https://pngimage.net/wp-content/uploads/2018/05/bukit-png-4.png");
+  background-size: cover;
+  padding-bottom: 90px;
+  padding-top: 30px;
+}
+.childForm{
+  /* background-image: url("img1.jpg"); */
+  background-color: white;
+  width: 30%;
+  /* padding : 200px; */
+  margin-left: 570px;
+  padding: 12px 20px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 5px 10px 888888;
+  border: 2px solid black;
+  box-sizing: border-box;
+  /* padding-top: 50px; */
+  /* margin-bottom: 20px; */
+}
+.table{
+  border: 2px solid ;
+  padding: 2px;
+}
+
+
+
+
+.child{
+  text-decoration: none;
+  color: black;
+}
+
+.records{
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  margin: 100px;
+  box-shadow: 5px 5px 30px #888888 ;
+  padding: 10px;
+}
+
+.quiz{
+  box-sizing: border-box;
+  box-shadow: 5px 5px 30px #888888 ;
+
+}
+
+
+.results{
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  /* margin: 5px; */
+  box-shadow: 5px 5px 30px #888888 ;
+  padding: 30px;
+}
+
+.tables{
+  margin-left: 600px;
+  margin-top: 20px;
+  /* position: fixed ; */
+
+}
+
+
